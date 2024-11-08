@@ -1,0 +1,78 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #CCD5AE;
+}
+legend{
+    margin: 20px;
+    
+}
+
+form{
+    margin: auto;
+    background-color: #E0E5B6;
+    border-radius: 8px;
+    box-shadow: 0 4px rgba(00,0,0.5);
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+fieldset{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+input, textarea{
+    margin-top: 4px;
+    padding: 8px;
+    width: 100%;
+    /* width: calc(100%-1px); */
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: none;
+}
+button{
+    display: block;
+    width: 100%;
+    background-color:   rgb(14, 90, 67) ;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,00.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
+button :hover {
+    color:  #CCD5AE;
+    transition: ease-in;
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #CCD5AE;
+    border-radius: 8px;
+    background-color:  #E0E5B6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+#resume-display h2 {
+    color: black;
+}
+
